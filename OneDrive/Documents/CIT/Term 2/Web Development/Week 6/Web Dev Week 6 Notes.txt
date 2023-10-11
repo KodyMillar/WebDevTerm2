@@ -1,0 +1,43 @@
+Web Dev Week 6
+
+There are three ways to make image filters:
+	> CSS
+	> Canvas
+	> PNGDecoder
+
+in a PNGDecoder:
+	> first part is metadata (like width, height)
+	> the rest is pixels
+
+every pixel has 3 parts, sometimes 4 -> RGB(A)
+
+png metadata returns dictionary
+
+
+greyscaling with RGB/3 is a cheap way to make into greyscale
+
+unzipper and ADM-ZIP are very fast and are used by quite a few developers 
+
+zlib is usually used for gzip files
+
+every nodejs project needs a package.json file
+	> have it to know what to install
+
+nodejs loads everything into a virtual environment
+
+
+use .on("error") handling for every .pipe that may have an error
+
+should use a pipeline for error handling, but think about where to resolve and reject
+
+look at unzipper documentation for how to work with promises
+
+new PNG() is a transform stream
+
+variable "this" holds all pixel data
+
+left bit shift operator - <<
+
+uint8 Array - another word for buffer for an image
+	> means it is 8 bits
+	> cannot modify a pixel color value to be above 255
